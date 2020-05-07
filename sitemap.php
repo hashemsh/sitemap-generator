@@ -1,4 +1,5 @@
-ndle = fopen("../list-url.txt", "r");
+<?php                                       
+$handle = fopen("../list-url.txt", "r");
 if ($handle) {
 while (($line = fgets($handle)) !== false) {
 ?>
