@@ -1,4 +1,4 @@
-ndle = fopen("https://ezzatkhah.com/list-url.txt", "r");
+ndle = fopen("../list-url.txt", "r");
 if ($handle) {
 while (($line = fgets($handle)) !== false) {
 ?>
